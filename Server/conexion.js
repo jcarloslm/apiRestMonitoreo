@@ -1,10 +1,11 @@
 const mysql = require('mysql');
+require('./variableEntorno');
 
 const mysqlConnection = mysql.createConnection({
   host: process.env.IP,
   user: process.env.USER,
   password: process.env.PASSWORD,
-  database: process.env.BD,
+  database: process.env.DB 
 });
 
 

@@ -6,7 +6,7 @@ const morgan =  require('morgan');
 
 
 //Variables de entorno
-require('./variableEntorno');
+
 
 
 const app = express();
@@ -30,6 +30,13 @@ app.get("/",async (req, res) => {
         })
     })
 })
+
+
+
+
+
+
+
 
 ///Le indica que escuche el puerto indicado
 app.listen(process.env.PORT,  () => {
