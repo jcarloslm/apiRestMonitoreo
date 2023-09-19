@@ -1,6 +1,7 @@
-Pruebas
-
-Pruebas
+1. Git
+2. commit
+3. branch
+4. log
 
 Pruebas
 
