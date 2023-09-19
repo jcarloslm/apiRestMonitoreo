@@ -2,3 +2,4 @@
 2. commit
 3. branch
 4. log
+5. add
